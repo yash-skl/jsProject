@@ -1,3 +1,3 @@
 # jsProject
 
-(https://stackblitz.com/~/github.com/yosshh/jsProject)
+(https://stackblitz.com/~/github.com/yash-skl/jsProject)
