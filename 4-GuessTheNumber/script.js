@@ -1,4 +1,4 @@
-const numberGuess = Math.floor(Math.random() * 100);
+const numberGuess = Math.floor(Math.random() * 100 + 1);
 const form = document.querySelector('form')
 const subt = document.querySelector('#subt');
 const lowOrHi = document.querySelector('.lowOrHi')
@@ -6,7 +6,6 @@ const guessField = document.querySelector('#guessField')
 const lastResult = document.querySelector('.lastResult')
 const guesses = document.querySelector('.guesses')
 const lottieContainer = document.getElementById('lottie-container');
-// lottieContainer.style.display = 'none'; 
 let guessesArray = [];
 
 const animation = lottie.loadAnimation({
